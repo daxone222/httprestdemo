@@ -1,0 +1,56 @@
+[TR=${ctx:threadId}] SUITE [Default Suite] started running.
+[TR=${ctx:threadId}] ====================
+[TR=${ctx:threadId}] TEST [dragosrestdemo] started running.
+[TR=1] TEST PRECONDITIONS
+[TR=1] TEST PRECONDITIONS
+[TR=1] TEST PRECONDITIONS
+[TR=1] -------------------------------------------
+[TR=1] Test method 561247961checkGetRandomUkPostCodeTest started running at: 2021/03/09 10:00:05
+[TR=1] Test class: restservicedemo.RestPostCodesIoTests
+[TR=1] TEST STEPS
+[TR=1] **. Call service: Get Random UK Post Code
+[TR=1] Making GET request on URL: https://api.postcodes.io/random/postcodes
+[TR=1] Response body was: {
+  "status" : 200,
+  "result" : {
+    "postcode" : "CO14 8AP",
+    "quality" : 1,
+    "eastings" : 625468,
+    "northings" : 221691,
+    "country" : "England",
+    "nhs_ha" : "East of England",
+    "longitude" : 1.272149,
+    "latitude" : 51.848255,
+    "european_electoral_region" : "Eastern",
+    "primary_care_trust" : "North East Essex",
+    "region" : "East of England",
+    "lsoa" : "Tendring 006E",
+    "msoa" : "Tendring 006",
+    "incode" : "8AP",
+    "outcode" : "CO14",
+    "parliamentary_constituency" : "Clacton",
+    "admin_district" : "Tendring",
+    "parish" : "Frinton and Walton",
+    "admin_county" : "Essex",
+    "admin_ward" : "Walton",
+    "ccg" : "NHS North East Essex",
+    "nuts" : "Essex Haven Gateway",
+    "codes" : {
+      "admin_district" : "E07000076",
+      "admin_county" : "E10000012",
+      "admin_ward" : "E05011961",
+      "parish" : "E04004095",
+      "parliamentary_constituency" : "E14000642",
+      "ccg" : "E38000117",
+      "nuts" : "UKH34"
+    }
+  }
+}
+[TR=1] Response body mapped by DTO: com.httprestdemo.restservicesdemo.dto.PostcodeUkDto@1a6f5124
+Status code was: 200
+[TR=1] Test result: passed! Took around 533 ms
+[TR=1] --------------------
+[TR=1] TEST [dragosrestdemo] finished.
+[TR=1] --------------------
+[TR=1] ====================
+[TR=1] SUITE [Default Suite] finished.

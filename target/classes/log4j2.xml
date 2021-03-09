@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <properties>
+        <property name="logFileMsgPattern">[TR=${ctx:threadId}] %msg%n</property>
+        <property name="logConsoleMsgPattern">%d{HH:mm:ss.SSS} [TR=${ctx:threadId}] %-5level %logger{36} - %msg%n
+        </property>
+        <property name="logDir">target/test-reports/logs</property>
+    </properties>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${logConsoleMsgPattern}"/>
+        </Console>
+        <File name="MyFile" fileName="${logDir}/all.log" immediateFlush="true" append="false">
+            <PatternLayout pattern="${logFileMsgPattern}"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="MyFile" level="debug"/>
+        </Root>
+    </Loggers>
+</Configuration>

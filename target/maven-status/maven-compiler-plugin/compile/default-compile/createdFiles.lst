@@ -1,0 +1,13 @@
+dragosdemo\restservicesdemo\service\ServiceImpl.class
+dragosdemo\restservicesdemo\testnglisteners\Constants.class
+dragosdemo\restservicesdemo\restutils\RestExchangeInfo$RestExchangeDataBuilder.class
+dragosdemo\restservicesdemo\dto\PostcodeUkDto.class
+dragosdemo\restservicesdemo\restutils\RestTemplateUtils.class
+dragosdemo\restservicesdemo\testnglisteners\RetryAnalyzer.class
+dragosdemo\restservicesdemo\testnglisteners\TestDescriptor.class
+dragosdemo\restservicesdemo\restutils\ExceptionMapper.class
+dragosdemo\restservicesdemo\restutils\RestTemplateManager.class
+dragosdemo\restservicesdemo\dto\PostcodeResultDto.class
+dragosdemo\restservicesdemo\dto\CodesUkDto.class
+dragosdemo\restservicesdemo\restutils\RestExchangeInfo.class
+dragosdemo\restservicesdemo\testnglisteners\TestLogListener.class
